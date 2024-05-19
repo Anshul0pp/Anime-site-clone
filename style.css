@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(32, 31, 49);
+    color: rgb(255, 210, 210);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana, 'Franklin Gothic Medium', 'Arial Narrow', Arial, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+nav{
+    margin-top: 2rem;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 2rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin: 1rem;
+    padding: 12px;
+    color: white;
+    font-family: "Kanit", sans-serif;
+}
+
+nav ul li a:hover{
+    color: rgb(187, 151, 231);
+}
+
+.box{   
+    margin:4rem;
+    /* font-family: "Poetsen One", sans-serif; */
+    color: white;
+    font-family: "Kanit", sans-serif;
+}
+
+.box span{
+    color: rgb(255, 186, 222);
+}
+.main-screen{
+    background-image: url('anime\ \(1\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-blend-mode; */
+    width: 1325px;
+    height: 514px;
+    border: .5px solid;
+    border-radius: 2rem;
+    /* filter: blur(2px); */
+}
+
+.box h1{
+    font-size: 3rem;
+}
+
+.box input{
+    padding: 1rem;
+    border: 1px solid;
+    border-radius: 1rem;
+    width: 440px;
+    font-family: "Kanit", sans-serif;
+}
+
+.box .btn{
+    padding: 1rem;
+    border-radius: 1rem;
+    background:  rgb(255, 186, 222);
+    cursor: pointer;
+    color: black;
+}
+
+.box .btn i{
+    font-size: 1rem;
+    /* cursor: pointer; */
+}
+
+.box .searchbtn{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.box .searchbtn a{
+    display: block;
+    border-radius: 12px;
+    padding: 1rem;
+    font-weight: 600;
+    background: #ffbade;
+    color: #111 ;
+    border: none;
+    box-shadow: none;
+    max-width: 260px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.seconddiv{
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    color: rgb(193, 204, 184);
+}
+
+.written-contain ul{
+    list-style-type: disc;
+}
+
+.div1{
+    width: 401px;
+    height: 190px;
+    background: rgb(255, 255, 255, .05);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 11px;
+}
+
+.general{
+    margin-bottom: 10px;
+    display: block;  
+    font-size: 12px;
+}
+
+.div1 h3{
+    font-size: 17px;
+    color: white;
+}
+
+.div1 .small{
+    font-size: 12px;
+}
+
+.box-contain .img{
+    display: flex;
+    align-items: center;
+    /* vertical-align: middle; */
+}
+
+.box-contain img{
+    width: 30px;
+    margin-right: 1rem;
+    border-radius: 4rem;
+    border: 1px solid black;
+}
+
+.Read-more{
+    width: 401px;
+    border-radius: 1rem;
+    padding: 11px;
+    background: rgb(255, 255, 255, .05);
+    cursor: pointer;
+    color: white;
+    margin-top: 1rem;
+}
+
+.written-contain h1{
+    color: white;
+}
+
+.written-contain{
+    margin-right: 4rem;
+}
+
+.box-contain h1{
+    color: white;
+}
+
+.thanks{
+    color: white;
+    font-weight: bolder;
+}
+
+.credit{
+    color: white;
+    display: block;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
